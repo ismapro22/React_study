@@ -2,22 +2,19 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  let post = '학습용 제목 영역';
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {
+        //html이 아니라 jsx임
+        //원래 리액트에서는 React.createElement('div',null.'Hello World')를 씀
+      }                  
+      <div className="black-nav">
+        <h4>학습용</h4>
+      </div>
+      <h4>post</h4>
     </div>
   );
 }
