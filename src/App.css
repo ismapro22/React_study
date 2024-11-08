@@ -11,6 +11,13 @@ div{
   border-bottom: 1px solid grey;
 }
 
+.modal {
+  margin-top: 20px;
+  background: cyan;
+  text-align: left;
+  padding: 20px;
+}
+
 .black-nav {
   display: flex;
   background: black;
